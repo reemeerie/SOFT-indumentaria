@@ -1,0 +1,223 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    color: rgb(208, 209, 214);
+    font-weight: bold;
+    text-decoration: none;
+}
+div.general {
+    margin: auto;
+    margin-top: 30px;
+    width: 1600px;
+    height: 1300px;
+    background-color: rgb(255, 255, 255);
+}
+/* HEADER */
+
+header .contenedorHeader {
+    margin: auto;
+    width: 1600px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header .logo {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(48, 42, 73);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+}
+header .user {
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(48, 42, 73);
+    transition: 0.5s;
+}
+header .user:hover {
+    color: rgb(61, 65, 117);
+    transform: scale(1.5);
+}
+header .carro {
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    color: rgb(48, 42, 73);
+    transition: 0.5s;
+}
+header .carro:hover {
+    color: rgb(61, 65, 117);
+    transform: scale(1.5);
+}
+header .searchbar {    
+    height: 70px;
+    width: 840px;
+    background-color: rgb(48, 42, 73);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+header .searchbar:hover {
+    background-color: rgb(61, 65, 117);
+    transform: scale(0.97);
+}
+
+header .lupa {
+    color: white;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+header .lupa:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+}
+header .bar {
+    height: 30px;
+    width: 750px;
+    margin-left: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    
+}
+nav {
+    margin: auto;
+    width: 1600px;
+    height: 50px;
+    background-color: rgb(48, 42, 73);
+    margin-top: 30px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+    padding-top: 15px;
+}
+nav ul li{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+nav ul li:hover {
+    text-shadow: 3px 3px 20px rgb(0, 0, 0);
+    transform: scale(0.97);
+
+}
+/* FIN HEADER */
+
+/* MAIN INDEX*/
+main {
+    margin: auto;
+    width: 1600px;
+    height: 900px;
+    
+    margin-top: 30px;
+}
+div .main_index {
+    width: 1600px;
+    height: 900px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+main .publi {
+
+}
+main .anuncio {
+    height: 700px;
+    width: 450px;
+    margin-left: 41px;
+    margin-top: 100px;
+    border-radius: 15px;
+    border-style: solid;
+    overflow: hidden;
+
+}
+main .columna2index {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+main .presentacion {   
+}
+div .texto {
+    width: 930px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 55px;
+}
+div .p {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+main .carrousel {
+}
+div .slider {
+    height: 500px;
+    width: 930px;
+    margin-left: 55px;
+    border-radius: 15px;
+    border-style: solid;
+}
+/* FIN MAIN INDEX */
+
+/* FOOTER */
+footer {
+    margin: auto;
+    width: 1600px;
+    height: 130px;
+    background-color: rgb(48, 42, 73);
+    margin-top: 30px;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 100px;
+}
+footer .ayuda1 {
+    padding-left: 40px;
+    text-shadow: 3px 3px 20px rgb(0, 0, 0);
+    
+}
+footer .trabaja2 {   
+    padding-right: 110px; 
+    text-align: center;
+    text-shadow: 3px 3px 20px rgb(0, 0, 0);
+    
+}
+footer .redes3 {
+    display: table-column;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 130px;
+    text-shadow: 3px 3px 20px rgb(0, 0, 0);
+}
+footer .fb {
+    font-size: 40px;
+    
+}
+footer .ig {
+    font-size: 40px;
+    margin-left: 30px;
+
+}
+footer .tw {
+    font-size: 40px;
+    margin-left: 30px;
+
+}
+/* FIN FOOTER */

@@ -134,13 +134,12 @@ div .main_index {
     grid-template-columns: 1fr 2fr;
 }
 main .publi {
-
 }
 main .anuncio {
     height: 700px;
     width: 450px;
     margin-left: 41px;
-    margin-top: 100px;
+    margin-top: 20px;
     border-radius: 15px;
     border-style: solid;
     overflow: hidden;
@@ -148,14 +147,15 @@ main .anuncio {
 }
 main .columna2index {
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 3fr;
 }
 main .presentacion {   
+    
 }
 div .texto {
     width: 930px;
     height: 100px;
-    margin-top: 150px;
+    margin-top: 70px;
     margin-left: 55px;
 }
 div .p {
@@ -163,13 +163,16 @@ div .p {
     font-family: 'Rubik', sans-serif;
 }
 main .carrousel {
+   
 }
 div .slider {
-    height: 500px;
+    height: 490px;
     width: 930px;
     margin-left: 55px;
     border-radius: 15px;
     border-style: solid;
+    margin-bottom: 50px;
+    overflow: hidden;
 }
 /* FIN MAIN INDEX */
 

@@ -9,12 +9,12 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
-div.general {
+div .general {
     margin: auto;
     margin-top: 30px;
     width: 1600px;
     height: 1300px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
 }
 /* HEADER */
 
@@ -124,7 +124,6 @@ main {
     margin: auto;
     width: 1600px;
     height: 900px;
-    
     margin-top: 30px;
 }
 div .main_index {
@@ -224,3 +223,61 @@ footer .tw {
 
 }
 /* FIN FOOTER */
+@media screen and (max-width:1500px){
+    div .general {
+        width: 700px;
+        height: 2000px;
+        background-color: blue;
+    }
+    header .contenedorHeader {
+        width: 700px;
+    }
+    header .searchbar {    
+        width: 400px;
+    }
+    nav {
+        width: 700px;
+    }
+    main {
+        width: 700px;
+        height: 1500px;
+    }
+    div .main_index {
+        width: 700px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    main .anuncio {
+        height: 700px;
+        width: 700px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    main .columna2index {
+        display: block;
+    }
+    div .texto {
+        width: 700px;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    div .slider {
+        height: 550px;
+        width: 700px;
+        margin-left: 0px;
+    }
+    footer {
+        width: 700px;
+        height: 300px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    footer .fb {
+        margin-left: 35px;
+        
+    }     
+}

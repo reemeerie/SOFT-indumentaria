@@ -19,6 +19,7 @@ div .general {
 /* HEADER */
 
 header .contenedorHeader {
+    margin-top: 500px;
     margin: auto;
     width: 1600px;
     height: 100px;

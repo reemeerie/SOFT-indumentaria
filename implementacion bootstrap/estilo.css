@@ -51,8 +51,7 @@ main .principal {
 }
 main img {
     box-sizing: content-box;
-    border:solid;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     align-items: center;
 }
@@ -60,4 +59,14 @@ footer ul {
     margin-top: 60px;
     background-color: yellowgreen;
     height: 50px;
+}
+footer {
+    margin-bottom: 30px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: white;
 }

@@ -1,7 +1,4 @@
 * {
-    margin:0px;
-    padding: 0px;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 a {
@@ -9,19 +6,18 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
-div .general {
+body .general {
     margin: auto;
     margin-top: 30px;
-    width: 1600px;
-    height: 1300px;
-    background-color: rgb(255, 0, 0);
+    width: 84%;
+    background-color: rgb(255, 255, 255);
 }
+
 /* HEADER */
 
 header .contenedorHeader {
-    margin-top: 500px;
     margin: auto;
-    width: 1600px;
+    width: 84%;
     height: 100px;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -58,7 +54,7 @@ header .carro:hover {
 }
 header .searchbar {    
     height: 70px;
-    width: 840px;
+    width: 53%;
     background-color: rgb(48, 42, 73);
     border-radius: 40px;
     display: flex;
@@ -69,7 +65,9 @@ header .searchbar:hover {
     background-color: rgb(61, 65, 117);
     transform: scale(0.97);
 }
-
+div .searchbar2 {
+    display: none;
+}
 header .lupa {
     color: white;
     margin-left: 20px;
@@ -82,7 +80,7 @@ header .lupa:hover {
 }
 header .bar {
     height: 30px;
-    width: 750px;
+    width: 100%;
     margin-left: 10px;
     border: none;
     background: none;
@@ -93,7 +91,7 @@ header .bar {
 }
 nav {
     margin: auto;
-    width: 1600px;
+    width: 84%;
     height: 50px;
     background-color: rgb(48, 42, 73);
     margin-top: 30px;  
@@ -103,7 +101,6 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-around;
-    list-style: none;
     padding: 0px;
     padding-top: 15px;
 }
@@ -112,75 +109,136 @@ nav ul li{
     font-weight: bold;
     text-decoration: none;
     transition: 0.5s;
+    
 }
 nav ul li:hover {
     text-shadow: 3px 3px 20px rgb(0, 0, 0);
     transform: scale(0.97);
 
 }
+
 /* FIN HEADER */
 
+.container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "publi texto texto"
+      "publi slider slider";
+  }
+  .publi { grid-area: publi; }
+  .texto { grid-area: texto; }
+  .slider { grid-area: slider; }
+
 /* MAIN INDEX*/
+
 main {
     margin: auto;
-    width: 1600px;
-    height: 900px;
+    width: 84%;
     margin-top: 30px;
 }
-div .main_index {
-    width: 1600px;
-    height: 900px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-main .publi {
+main .img1 {
+    width: 100%;
+    max-height: 600px;
+    border-radius: 15px;
 }
 main .anuncio {
-    height: 700px;
-    width: 450px;
-    margin-left: 41px;
-    margin-top: 20px;
+    height: 100%;
+    width: 100%;
     border-radius: 15px;
     border-style: solid;
     overflow: hidden;
-
 }
 main .columna2index {
+    justify-content: center;
+    width: 87%;
     display: grid;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr;
 }
-main .presentacion {   
+main .presentacion {  
+    width: 87%; 
     
 }
 div .texto {
-    width: 930px;
-    height: 100px;
-    margin-top: 70px;
-    margin-left: 55px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 div .p {
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
 main .carrousel {
+    width: 87%;
    
 }
 div .slider {
-    height: 490px;
-    width: 930px;
+    height: 100%;
     margin-left: 55px;
     border-radius: 15px;
-    border-style: solid;
-    margin-bottom: 50px;
     overflow: hidden;
 }
+
 /* FIN MAIN INDEX */
 
+/* MAIN TALLES */
+main .title {
+    border-bottom: solid;
+
+} 
+.dropdown {
+    text-align: center;
+}
+div .row {
+    color: rgb(48, 42, 73);
+    margin-top: 20px;
+}
+a:hover{
+    color: rgb(209, 209, 209);
+}
+.fixboot{
+    font-size: 20px;
+    margin-top: 14px;
+}
+.align {
+    text-align: center;
+}
+
+/* MAIN TALLES */
+/* MAIN CONTACTO */
+.btn-primary {
+    background-color:rgb(48, 42, 73);
+    border-color:rgb(48, 42, 73) ;
+}
+div .btn-primary:hover{
+    background-color: rgb(48, 42, 73);
+    border-color: rgb(48, 42, 73);
+}
+.maincentro{
+    display: flex;
+    justify-content: center;
+}
+.text {
+    width: 107%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* MAIN CONTACTO */
 /* FOOTER */
+
 footer {
     margin: auto;
-    width: 1600px;
-    height: 130px;
+    width: 84%;
+    height: 5%;
     background-color: rgb(48, 42, 73);
     margin-top: 30px;
     display: flex;
@@ -189,7 +247,8 @@ footer {
     align-items: center;
     color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
 }
 footer .ayuda1 {
     padding-left: 40px;
@@ -208,6 +267,7 @@ footer .redes3 {
     align-items: center;
     padding-right: 130px;
     text-shadow: 3px 3px 20px rgb(0, 0, 0);
+    margin-bottom: 15px;
 }
 footer .fb {
     font-size: 40px;
@@ -223,72 +283,91 @@ footer .tw {
     margin-left: 30px;
 
 }
+
 /* FIN FOOTER */
-@media screen and (max-width:1500px){
-    div .general {
-        width: 700px;
-        height: 2000px;
-        background-color: blue;
-    }
-    header .contenedorHeader {
-        width: 700px;
-    }
-    header .searchbar {    
-        width: 400px;
-    }
-    nav {
-        width: 700px;
-    }
-    main {
-        width: 700px;
-        height: 1500px;
-    }
-    div .main_index {
-        width: 700px;
-        height: 1200px;
-        display: flex;
-        flex-direction: column;
-    }
-    main .anuncio {
-        height: 700px;
-        width: 700px;
-        margin-left: 0px;
-        margin-top: 20px;
-    }
-    main .columna2index {
-        display: block;
+
+@media screen and (max-width:1270px){
+    main .publi {
+        width: 90%;
     }
     div .texto {
-        width: 700px;
         margin-top: 15px;
         margin-left: 0px;
         margin-bottom: 50px;
     }
     div .slider {
-        height: 550px;
-        width: 700px;
+        width: 100%;
         margin-left: 0px;
     }
-    footer {
-        width: 700px;
-        height: 300px;
-        margin-top: 0px;
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 30px;
-    }
     footer .fb {
-        margin-left: 0px; 
-        font-size: 30px;
+        font-size: 20px;
     }
     footer .ig {
-        font-size: 30px;
-        margin-left: 3px;
+        font-size: 20px;
+        margin-left: 5px;
 
     }
     footer .tw {
-        font-size: 30px;
-        margin-left: 3px;
+        font-size: 20px;
+        margin-left: 5px;
 
     }     
 }
+
+@media screen and (max-width: 868px){
+    .container { 
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+}
+
+@media screen and (max-width: 573px){
+    header .searchbar {    
+        display: none;
+    }
+    .centrar {
+        display: flex;
+        justify-content: center;
+    }
+    div .searchbar2 {
+        display: flex;
+        height: 70px;
+        width: 84%;
+        background-color: rgb(48, 42, 73);
+        border-radius: 40px;
+        align-items: center;
+        transition: 0.5s;
+    }
+    div .searchbar2:hover{
+        background-color: rgb(61, 65, 117);
+        transform: scale(0.97);
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    footer .ayuda1 {
+        padding-left: 0px;
+        text-align: center ;
+    }
+    footer .trabaja2 {   
+        padding-right: 0px; 
+        text-align: center;
+    }
+    footer .redes3 {
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+    footer .fb {
+        font-size: 40px;
+    }
+    footer .ig {
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    footer .tw {
+        font-size: 40px;
+        margin-left: 30px;
+    }  
+}}

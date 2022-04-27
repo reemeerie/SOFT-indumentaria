@@ -145,24 +145,6 @@ main .img1 {
     max-height: 600px;
     border-radius: 15px;
 }
-main .anuncio {
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-    border-style: solid;
-    overflow: hidden;
-}
-main .columna2index {
-    justify-content: center;
-    width: 87%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr;
-}
-main .presentacion {  
-    width: 87%; 
-    
-}
 div .texto {
     width: 100%;
     margin-top: 15px;
@@ -172,10 +154,6 @@ div .texto {
 div .p {
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
-}
-main .carrousel {
-    width: 87%;
-   
 }
 div .slider {
     height: 100%;
@@ -231,6 +209,10 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.colorboton:checked {
+    background-color: rgb(48, 42, 73);
+    border-color: rgb(48, 42, 73);
 }
 /* MAIN CONTACTO */
 /* FOOTER */

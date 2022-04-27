@@ -1,0 +1,268 @@
+* {
+  font-family: 'Poppins', sans-serif; }
+
+a {
+  color: #d0d1d6;
+  font-weight: bold;
+  text-decoration: none; }
+
+.general {
+  margin: auto;
+  margin-top: 30px;
+  width: 84%;
+  background-color: white; }
+  .general .contenedorHeader {
+    margin: auto;
+    width: 84%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .general .contenedorHeader .logo {
+      height: 80px;
+      width: 80px;
+      background-color: #302a49;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+      border-radius: 50%; }
+    .general .contenedorHeader .searchbar {
+      height: 70px;
+      width: 53%;
+      background-color: #302a49;
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      transition: 0.5s; }
+      .general .contenedorHeader .searchbar .lupa {
+        color: white;
+        margin-left: 20px;
+        transition: 0.5s; }
+      .general .contenedorHeader .searchbar .lupa:hover {
+        color: white;
+        transform: scale(0.9);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+      .general .contenedorHeader .searchbar .bar {
+        height: 30px;
+        width: 100%;
+        margin-left: 10px;
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 16px;
+        color: white; }
+    .general .contenedorHeader .searchbar:hover {
+      background-color: #3d4175;
+      transform: scale(0.97); }
+    .general .contenedorHeader .user {
+      font-size: 50px;
+      background-color: white;
+      color: #302a49;
+      transition: 0.5s; }
+    .general .contenedorHeader .user:hover {
+      color: #3d4175;
+      transform: scale(1.5); }
+    .general .contenedorHeader .carro {
+      font-size: 50px;
+      background-color: white;
+      margin-left: 30px;
+      color: #302a49;
+      transition: 0.5s; }
+    .general .contenedorHeader .carro:hover {
+      color: #3d4175;
+      transform: scale(1.5); }
+  .general .searchbar2 {
+    display: none; }
+  .general nav {
+    margin: auto;
+    width: 84%;
+    height: 50px;
+    background-color: #302a49;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); }
+    .general nav ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 0px;
+      padding-top: 15px; }
+      .general nav ul li {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        transition: 0.5s; }
+      .general nav ul li:hover {
+        text-shadow: 3px 3px 20px black;
+        transform: scale(0.97); }
+  .general main {
+    margin: auto;
+    width: 84%;
+    margin-top: 30px; }
+    .general main .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 0.4fr 1.4fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas: "publi texto texto"
+ "publi slider slider"; }
+      .general main .container .publi {
+        grid-area: publi; }
+        .general main .container .publi .img1 {
+          width: 100%;
+          max-height: 600px;
+          border-radius: 15px; }
+      .general main .container .texto {
+        grid-area: texto; }
+        .general main .container .texto .p {
+          font-family: 'Poppins', sans-serif;
+          font-family: 'Rubik', sans-serif; }
+      .general main .container .slider {
+        grid-area: slider; }
+  .general footer {
+    margin: auto;
+    width: 84%;
+    height: 5%;
+    background-color: #302a49;
+    margin-top: 30px;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+    box-sizing: border-box; }
+    .general footer .ayuda1 {
+      padding-left: 40px;
+      text-shadow: 3px 3px 20px black; }
+    .general footer .trabaja2 {
+      padding-right: 110px;
+      text-align: center;
+      text-shadow: 3px 3px 20px black; }
+    .general footer .redes3 {
+      display: table-column;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 130px;
+      text-shadow: 3px 3px 20px black;
+      margin-bottom: 15px; }
+      .general footer .redes3 .fb {
+        font-size: 40px; }
+      .general footer .redes3 .ig {
+        font-size: 40px;
+        margin-left: 30px; }
+      .general footer .redes3 .tw {
+        font-size: 40px;
+        margin-left: 30px; }
+
+/* MAIN TALLES */
+main .title {
+  border-bottom: solid; }
+
+.dropdown {
+  text-align: center; }
+
+div .row {
+  color: #302a49;
+  margin-top: 20px; }
+
+a:hover {
+  color: #d1d1d1; }
+
+.fixboot {
+  font-size: 20px;
+  margin-top: 14px; }
+
+.align {
+  text-align: center; }
+
+/* MAIN TALLES */
+/* MAIN CONTACTO */
+.btn-primary {
+  background-color: #302a49;
+  border-color: #302a49; }
+
+div .btn-primary:hover {
+  background-color: #302a49;
+  border-color: #302a49; }
+
+.maincentro {
+  display: flex;
+  justify-content: center; }
+
+.text {
+  width: 107%; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.colorboton:checked {
+  background-color: #302a49;
+  border-color: #302a49; }
+
+/* MAIN CONTACTO */
+@media screen and (max-width: 1270px) {
+  main .publi {
+    width: 90%; }
+  div .texto {
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-bottom: 50px; }
+  div .slider {
+    width: 100%;
+    margin-left: 0px; }
+  footer .fb {
+    font-size: 20px; }
+  footer .ig {
+    font-size: 20px;
+    margin-left: 5px; }
+  footer .tw {
+    font-size: 20px;
+    margin-left: 5px; } }
+
+@media screen and (max-width: 868px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 868px) and (max-width: 573px) {
+  header .searchbar {
+    display: none; }
+  .centrar {
+    display: flex;
+    justify-content: center; }
+  div .searchbar2 {
+    display: flex;
+    height: 70px;
+    width: 84%;
+    background-color: #302a49;
+    border-radius: 40px;
+    align-items: center;
+    transition: 0.5s; }
+  div .searchbar2:hover {
+    background-color: #3d4175;
+    transform: scale(0.97); }
+  footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px; }
+  footer .ayuda1 {
+    padding-left: 0px;
+    text-align: center; }
+  footer .trabaja2 {
+    padding-right: 0px;
+    text-align: center; }
+  footer .redes3 {
+    padding-right: 0px;
+    margin-bottom: 10px; }
+  footer .fb {
+    font-size: 40px; }
+  footer .ig {
+    font-size: 40px;
+    margin-left: 30px; }
+  footer .tw {
+    font-size: 40px;
+    margin-left: 30px; } }

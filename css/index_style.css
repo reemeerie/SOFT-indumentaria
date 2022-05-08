@@ -165,9 +165,12 @@ div .slider {
 /* FIN MAIN INDEX */
 
 /* MAIN TALLES */
+.h2talles {
+    text-align: center;
+    margin-bottom: 30px;
+}
 main .title {
     border-bottom: solid;
-
 } 
 .dropdown {
     text-align: center;
@@ -282,15 +285,15 @@ footer .tw {
         margin-left: 0px;
     }
     footer .fb {
-        font-size: 20px;
+        font-size: 30px;
     }
     footer .ig {
-        font-size: 20px;
+        font-size: 30px;
         margin-left: 5px;
 
     }
     footer .tw {
-        font-size: 20px;
+        font-size: 30px;
         margin-left: 5px;
 
     }     
@@ -301,9 +304,16 @@ footer .tw {
          display: flex;
          flex-direction: column;
          align-items: center;
+        }
+        div .texto {
+            text-align: center;
+        }
 }
 
 @media screen and (max-width: 573px){
+    a {
+        font-size: 14px;
+    }
     header .searchbar {    
         display: none;
     }
@@ -352,4 +362,4 @@ footer .tw {
         font-size: 40px;
         margin-left: 30px;
     }  
-}}
+}

@@ -124,6 +124,9 @@ nav {
 
 /* FIN HEADER */
 /* MAIN INDEX*/
+.card {
+  width: 18rem;
+}
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

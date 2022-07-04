@@ -14,7 +14,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik:wght@600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a9a5e85d11.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="../js/objetos.js"></script>
+    <script defer src="../js/funcionesCarrito.js"></script>
+    <script defer src="https://kit.fontawesome.com/a9a5e85d11.js" crossorigin="anonymous"></script>
     <title>SOFT Indumentaria - Adultos ARG</title>
     <link rel="shortcut icon" href="../img/loguito.png" type="image/x-icon">
 </head>
@@ -32,7 +36,7 @@
                 <div>
                     <a href="#" class="user"><i class="fa-solid fa-user" ></i></a>
             
-                    <a href="#" class="carro"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="carrito.html" class="carro"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
             <!-- BARRA MOBILE -->
@@ -55,37 +59,46 @@
         </header>
         <main>
             <h1 class="dropdown">Adultos</h1>
-            <div class="columnamobile">
-                <div class="card" style="width: 18rem;">
+            <div class="columnamobile" id="adultitos">
+                <!-- <div class="card">
                     <img class="card-img-top" src="../img/adultos1.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Campera beige</h5>
+                      <a href="#" class="btn btn-primary" id="boton">Añadir al carro</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img class="card-img-top" src="../img/adultos2.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Sweater verde</h5>
+                      <a href="#" class="btn btn-primary" id="boton">Añadir al carro</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img class="card-img-top" src="../img/adultos3.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Bomber negra</h5>
+                      <a href="#" class="btn btn-primary" id="boton">Añadir al carro</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img class="card-img-top" src="../img/adultos4.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Sweater negro</h5>
+                      <a href="#" class="btn btn-primary" id="boton">Añadir al carro</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img class="card-img-top" src="../img/adultos5.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title"> Remera negra ML</h5>
+                      <a href="#" class="btn btn-primary" id="boton">Añadir al carro</a>
                     </div>
-                </div>
+                </div> -->
+            </div>
+            <h2 class="dropdown">Carrito</h2>
+            <div class="columnamobile" id="carro">
+
             </div>
         </main>
         <footer>
@@ -104,7 +117,6 @@
                     <a href="https://twitter.com/" class="tw" target=”_blank”><i class="fa-brands fa-twitter"></i></a>
                 </div>
         </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
+    </div>   
 </body>
 </html>
